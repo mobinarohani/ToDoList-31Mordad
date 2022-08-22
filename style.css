@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(100, 3, 100);
+    position: relative;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container{
+    margin: 5rem auto;
+    width: 30rem;
+  }
+  .li-item{
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    background-color: rgb(154, 31, 154);
+    margin-top: .1rem;
+    width: 18rem;
+    display: flex;
+   justify-content:space-around;
+  }
+  
+  .li-item span{
+   margin-right: auto;
+  
+  }
+  .fa{
+    width: 5rem;
+    text-align: center;
+  }
+  .form{
+    width: 20rem;
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .txt{
+    padding: 0;
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    background-color: rgb(140, 33, 140);
+  }
+  .lable{
+    margin: .2rem auto;
+  }
+  .txt:focus{
+    background-color: rgb(245, 169, 245);
+  }
+  .fa:hover{
+    cursor: pointer;
+  }
